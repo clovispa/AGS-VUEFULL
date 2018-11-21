@@ -2,13 +2,15 @@ import DashboardLayout from '@/pages/Layout/DashboardLayout.vue'
 
 import Dashboard from '@/pages/Dashboard.vue'
 import UserProfile from '@/pages/UserProfile.vue'
-import TableList from '@/pages/TableList.vue'
+import Consultas from '@/pages/Consultas.vue'
+import AtencionIntegral from '@/pages/AtencionIntegral.vue'
+import AtencionTemprana from '@/pages/AtencionTemprana.vue'
+import signin from '@/pages/signin.vue'
+
 import AsignarCita from '@/pages/AsignarCita.vue'
-import Typography from '@/pages/Typography.vue'
-import Icons from '@/pages/Icons.vue'
-import Maps from '@/pages/Maps.vue'
-import Notifications from '@/pages/Notifications.vue'
-import UpgradeToPRO from '@/pages/UpgradeToPRO.vue'
+
+
+
 
 const routes = [
   {
@@ -18,7 +20,7 @@ const routes = [
     children: [
       {
         path: 'dashboard',
-        name: 'Dashboard',
+        name: 'Inicio',
         component: Dashboard
       },
       {
@@ -27,45 +29,31 @@ const routes = [
         component: UserProfile
       },
       {
-        path: 'table',
-        name: 'Table List',
-        component: TableList
+        path: 'Consultas',
+        name: 'Consultas',
+        component: Consultas
       },
+      {
+        path: 'AtencionIntegral',
+        name: 'Atencion Integral',
+        component: AtencionIntegral
+      },
+      {
+        path: 'AtencionTemprana',
+        name: 'Atencion Temprana',
+        component: AtencionTemprana
+      },
+      {
+        path: 'signin',
+        name: 'sign in',
+        component: signin
+      },
+     
       {
         path: 'AsignarCita',
         name: 'Asignar Cita',
         component: AsignarCita
-      },
-  
-      {
-        path: 'typography',
-        name: 'Departamento: Atención Integral y Capacitación',
-        component: Typography
-      },
-      {
-        path: 'icons',
-        name: 'Icons',
-        component: Icons
-      },
-      {
-        path: 'maps',
-        name: 'Maps',
-        meta: {
-          hideFooter: true
-        },
-        component: Maps
-
-      },
-      {
-        path: 'notifications',
-        name: 'Notifications',
-        component: Notifications
-      },
-      {
-        path: 'upgrade',
-        name: 'Upgrade to PRO',
-        component: UpgradeToPRO
-      }
+      }    
     ]
   }
 ]

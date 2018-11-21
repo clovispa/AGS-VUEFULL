@@ -2,7 +2,7 @@
   <form>
     <md-card>
       <md-card-header :data-background-color="dataBackgroundColor">
-        <h4 class="title"><b>Asignar Cita de evaluaciòn inicial</b></h4>
+        <h4 class="title"><b>Asignar Cita de evaluación inicial</b></h4>
         <p class="category"><b>Ingrese datos del estudiante</b></p>
       </md-card-header>
 
@@ -49,7 +49,7 @@
             </md-field>
           </div>
           <div class="md-layout-item md-size-100 text-right">
-            <md-button class="md-raised md-success">Guaardar</md-button>
+            <md-button class="md-raised md-primary">Guaardar</md-button>
           </div>
         </div>
 

@@ -14,7 +14,7 @@
                     <md-card-content>
                         <div class="md-layout">
                          <div class="md-layout-item md-small-size-100 md-size-70">
-                              <h4 class="title"><center><b>1. Datos Diligenciados Por Admisiòn y Gestiòn Social </b></center></h4>
+                              <h4 class="title"><b>1. Datos Diligenciados Por Admisiòn y Gestiòn Social </b></h4>
                             </div>
 
                             <div>
@@ -182,7 +182,7 @@
                                 </md-field>
                             </div>
                              <div class="md-layout-item md-small-size-100 md-size-70">
-                              <h4 class="title"><center><b>2. Datos para Diligenciar por Subcoordinadora de Terapias </b></center></h4>
+                              <h4 class="title"><b>2. Datos para Diligenciar por Subcoordinadora de Terapias </b></h4>
                             </div>
 
                             <div class="md-layout-item md-small-size-100 md-size-45">
@@ -269,7 +269,7 @@
                                 </md-field>
                             </div>
                              <div class="md-layout-item md-small-size-100 md-size-70">
-                              <h4 class="title"><center><b>3.Coordinación AGS </b></center></h4>
+                              <h4 class="title"><b>3.Coordinación AGS </b></h4>
                             </div>
                               <div class="md-layout-item md-small-size-100 md-size-45">
                                 <md-field>
@@ -279,7 +279,7 @@
                             </div>
 
                             <div class="md-layout-item md-size-100 text-right">
-                                    <md-button class="md-raised md-success">Update Profile</md-button>
+                                    <md-button class="md-raised md-primary">Guardar</md-button>
                                 </div>
                           
                             

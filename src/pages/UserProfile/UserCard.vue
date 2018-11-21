@@ -10,7 +10,7 @@
       <p class="card-description">
           Lunes  
       </p>
-      <md-button class="md-round md-success">Asignar</md-button>
+      <md-button class="md-round md-primary">Asignar</md-button>
     </md-card-content>
   </md-card>
 </template>

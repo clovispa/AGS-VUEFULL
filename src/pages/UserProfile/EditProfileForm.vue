@@ -65,7 +65,7 @@
          
          
           <div class="md-layout-item md-size-100 text-right">
-            <md-button class="md-raised md-success">Guardar</md-button>
+            <md-button class="md-raised md-primary">Guardar</md-button>
           </div>
         </div>
 
@@ -75,11 +75,11 @@
 </template>
 <script>
 export default {
-  name: '',
+  name: 'Edit-Profile-Form',
   props: {
     dataBackgroundColor: {
       type: String,
-      default: ''
+      default: 'blue'
     }
   },
   data () {

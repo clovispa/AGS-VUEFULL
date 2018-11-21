@@ -5,7 +5,7 @@
     <side-bar>
       <mobile-menu slot="content"></mobile-menu>
       <sidebar-link to="/dashboard">
-        <md-icon>dashboard</md-icon>
+        <md-icon>home</md-icon>
         <p>Inicio</p>
       </sidebar-link>
       <sidebar-link to="/user">
@@ -13,33 +13,27 @@
         <p>Gestionar Usuarios</p>
       </sidebar-link>
       <sidebar-link to="/AsignarCita">
-        <md-icon>person</md-icon>
+        <md-icon>event_available </md-icon>
         <p>Asignar Cita</p>
       </sidebar-link>
-      <sidebar-link to="/table">
-        <md-icon>content_paste</md-icon>
+      <sidebar-link to="/Consultas">
+        <md-icon>find_in_page</md-icon>
         <p>Consultas</p>
       </sidebar-link>
-      <sidebar-link to="/typography">
+      <sidebar-link to="/AtencionIntegral">
         <md-icon>library_books</md-icon>
-        <p>Atenciòn Integral </p>
+        <p>Atención Integral </p>
       </sidebar-link>
-      <sidebar-link to="/icons">
-        <md-icon>bubble_chart</md-icon>
-        <p>Atenciòn Temprana</p>
+      <sidebar-link to="/AtencionTemprana">
+        <md-icon>event_note</md-icon>
+        <p>Atención Temprana</p>
       </sidebar-link>
-      <sidebar-link to="/maps">
-        <md-icon>location_on</md-icon>
+      <sidebar-link to="/Sing">
+        <md-icon>meeting_room</md-icon>
         <p>Salir</p>
       </sidebar-link>
-      <sidebar-link to="/notifications">
-        <md-icon>notifications</md-icon>
-        
-      </sidebar-link>
-      <sidebar-link to="/upgrade" class="active-pro">
-        <md-icon>unarchive</md-icon>
-        <p></p>
-      </sidebar-link>
+     
+   
     </side-bar>
 
     <div class="main-panel">
