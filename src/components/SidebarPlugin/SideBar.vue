@@ -7,7 +7,7 @@
         </div>
       </a>
 
-      <a href="https://www.creative-tim.com/product/vue-material-dashboard" target="_blank" class="simple-text logo-normal">
+      <a href="#" target="" class="simple-text logo-normal">
         {{title}}
       </a>
     </div>
@@ -42,11 +42,11 @@ export default{
     },
     backgroundImage: {
       type: String,
-      default: require('@/assets/img/sidebar-2.jpg')
+      default: require('@/assets/img/imagen4.jpg')
     },
     imgLogo: {
       type: String,
-      default: require('@/assets/img/vue-logo.png')
+      default: require('@/assets/img/user2.png')
     },
     activeColor: {
       type: String,
