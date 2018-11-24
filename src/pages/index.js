@@ -10,6 +10,7 @@ import AtencionTemprana from '../pages/AtencionTemprana/AtencionTemprana.vue'
 import signin from '../pages/signin/signin.vue'
 import Consultas from '../pages/Consultas/Consultas.vue'
 
+
 export {
   UserCard,
   EditProfileForm,
@@ -18,4 +19,5 @@ export {
   AtencionTemprana,
   signin,
   Consultas
+ 
 }
