@@ -66,6 +66,15 @@
          
           <div class="md-layout-item md-size-100 text-right">
             <md-button class="md-raised md-primary">Guardar</md-button>
+            <md-button class="md-raised md-primary" @click="sendData">Buscar</md-button>
+            
+              <ul>
+                <li v-for=" u in usuari ">{{u.Nickname}}-{{u.Nombre}}-{{u.Apellido}}</li>
+             </ul>
+             <p></p>
+             
+
+            
           </div>
         </div>
 
@@ -74,6 +83,8 @@
   </form>
 </template>
 <script>
+ import axios from "axios";
+
 export default {
   name: 'Edit-Profile-Form',
   props: {
@@ -85,9 +96,12 @@ export default {
   data () {
     return {
       username: null,
-      nickname: null,
+        Nickname: "",
+      usuari:[],
+      ip: "",
+      Nombre: "",
     
-      apellido: null,
+      Apellido: "",
       cargo:    null,
       emailadress: null,
       lastname: null,
@@ -95,10 +109,28 @@ export default {
       address: null,
       city: null,
       rol: null,
-       boolean: false
+       boolean: false,
+       response: ""
      
    
     }
+  },
+  computed:{
+    searchmessage(){
+      return `Usuarios encontrados: ${this.usuari.length}`
+    }
+  },
+   mounted() {
+         
+        },
+        methods: {
+            sendData() {
+                axios({ method: "GET", "url": "http://localhost:1337/api/prueba" }).then(result => {
+                this.usuari = result.data.origin;
+            }, error => {
+                console.error(error);
+            });
+        }
   }
 }
 
